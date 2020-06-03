@@ -9,7 +9,7 @@
     {{#each apps}}
     "install:{{this}}": "cd micro-app-{{this}} && yarn",
     "start:{{this}}": "cd micro-app-{{this}} && yarn start",
-    {{#each}}
+    {{/each}}
     "install:main": "cd micro-app-main && yarn",
     "start:main": "cd micro-app-main && yarn start"
   },
